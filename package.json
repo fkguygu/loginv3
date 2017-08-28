@@ -1,0 +1,24 @@
+{
+	"name": "loginv3",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"start": "node node_modules/react-native/local-cli/cli.js start",
+		"test": "jest"
+	},
+	"dependencies": {
+		"aws-sdk-react-native-core": "../aws-sdk-react-native/Core/aws-sdk-react-native-core-0.0.2.tgz",
+		"babel-preset-react-native": "2.1.0",
+		"react": "16.0.0-alpha.12",
+		"react-native": "0.47.2",
+		"react-native-aws-cognito-js": "0.0.6"
+	},
+	"devDependencies": {
+		"babel-jest": "20.0.3",
+		"jest": "20.0.4",
+		"react-test-renderer": "16.0.0-alpha.12"
+	},
+	"jest": {
+		"preset": "react-native"
+	}
+}
